@@ -67,11 +67,13 @@ h3 {
 
 h1 {
   font-size: 2.2rem;
+  font-type: cursive;
   color: #276749;
 }
 
 h2 {
   font-size: 1.75rem;
+  font-type: cursive;
   color: #2f855a;
 }
 
