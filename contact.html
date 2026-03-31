@@ -3,102 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0cm;
-            padding: 0cm;
-            font-weight: 200;
-        }
-        .feedback form {
-            width: 500px;
-            margin: 20px auto;
-            padding: 20px;
-            border: 1px solid #abcaaf;
-            border-radius: 5px;
-        }
-        .form group {
-            margin-bottom: 15px;
-            width: 300px;
-            margin :30px auto;
-            border: 1px solid #abcaaf;
-            border-radius: 4px;
-            color: #abcaaf;
-        }
-            label {
-                display: block;
-                margin-bottom: 5px;
-            }
-            input textarea {
-                width: 100%;
-                padding: 8px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-            }
-            button {
-                background-color: #4CAF50;
-                color: white;
-                padding: 10px 20px;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-            }
-            button:hover {
-                background-color: #45a049;
-            }
-    </style>
+    <title>FoodBankKe - Contact</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <nav>
-        <div style="background-color: #97dba8; padding: 10px;">
-            <a href = "Homepage.html">Home</a> |
-            <a href = "services.html">Services</a> |
-            <a href = "contact.html">Contact Us</a> |
-            <a href = "contributions.html">Contributions</a>
-        </div>
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contributions.html">Contributions</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
     </nav>
-    <h1> Contact Us </h1>
-    <p>Feel free to reach out to us with any questions or feedback!</p>
-    <div>
-        <h2>
-            Email:foodbankke@gmail.com
-            <br>
-            Phone:0712897654
-            <br>
-            Instagram: foodbankke
-            <br>
-            Facebook: foodbank kenya
 
-    
-        </h2>
-<div class = "feedback form">
-    <div class = "form group"></div>
-            
-            <form >
-                <label for = "name"></label>
-                <input type = "text" id = "name" name = "name" placeholder = "your name here">
-                <br>
-    <div class = "form group"></div>
-                <label for = "email"></label>
-                <input type = "email" id = "email" name = "email" placeholder = "your email here">
-                <br>
-    <div class = "form group"></div>
-                <label for = "message"></label>
-                <textarea id = "message" name = "message" placeholder = "your message here"></textarea>
-                <br>
-                <button type = "submit">Submit</button>
+    <div class="container">
+        <section class="contact-box">
+            <h1>Contact Us</h1>
+            <p>Feel free to reach out to us with any questions or feedback!</p>
+            <div class="contact-details">
+                <h2>Email: foodbankke@gmail.com</h2>
+                <p>Phone: 0712897654</p>
+                <p>Instagram: foodbankke</p>
+                <p>Facebook: FoodBank Kenya</p>
+            </div>
 
+            <form class="feedback-form" action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name here">
 
-            
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email here">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message here"></textarea>
+
+                <button type="submit">Submit</button>
             </form>
-        </div>
-
+        </section>
     </div>
 
+    <footer class="site-footer">
+        <p>&copy; 2026 FoodBankKe. All rights reserved.</p>
+    </footer>
 </body>
-<footer>
-    <p>&copy; 2023 FoodBankKe. All rights reserved.</p>
-</footer>
 </html>
