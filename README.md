@@ -5,7 +5,7 @@ FoodBankKe is a modern, responsive web application built for a Kenyan NGO dedica
 The project is officially deployed and can be viewed here:
 Open FoodBankKe on Netlify
 
-##🛠️ Project Features
+## 🛠️ Project Features
 ### Four-Page Navigation: 
 Includes Home, Services, Contributions, and Contact Us.
 
