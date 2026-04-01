@@ -4,42 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodBankKe - Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <nav class="main-nav">
-        <ul class="nav-list">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contributions.html">Contributions</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+<body class="bg-white text-gray-800 flex flex-col min-h-screen">
+    <nav class="bg-emerald-600 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="home.html" class="text-2xl font-bold">FoodBankKe</a>
+            <div class="space-x-6">
+                <a href="home.html" class="hover:text-emerald-200 transition">Home</a>
+                <a href="services.html" class="hover:text-emerald-200 transition">Services</a>
+                <a href="contributions.html" class="hover:text-emerald-200 transition">Contributions</a>
+                <a href="contact.html" class="hover:text-emerald-200 transition">Contact Us</a>
+            </div>
+        </div>
     </nav>
 
-    <div class="container">
-        <section class="hero">
-            <h1>Welcome to our Website</h1>
-            <p>FoodBankKe supports communities by distributing meals, raising awareness, and empowering families with sustainable change.</p>
-        </section>
-
-        <section class="content">
-            <div class="bio-summary">
-                <h2>About our NGO</h2>
-                <p>We are dedicated to ending hunger and supporting vulnerable families across Kenya.</p>
-
-                <h3>Future Goals</h3>
-                <ul class="achievements">
-                    <li>🎓 Distributing thousands of meals each month</li>
-                    <li>💼 Supporting vulnerable families and children</li>
-                    <li>🚀 Raising awareness about food insecurity</li>
-                    <li>🌟 Empowering communities to achieve sustainable change</li>
-                </ul>
+    <main class="flex-grow container mx-auto px-6 py-12">
+        <section class="relative h-[400px] rounded-3xl overflow-hidden mb-12 shadow-2xl">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=2000" alt="Community Support" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-emerald-900/60 flex flex-col justify-center items-center text-center p-6">
+                <h1 class="text-5xl font-extrabold text-white mb-4 tracking-tight">Welcome to FoodBankKe</h1>
+                <p class="text-xl text-emerald-50 max-w-2xl">Distributing meals and clean water to empowering families across Kenya.</p>
             </div>
         </section>
-    </div>
 
-    <footer class="site-footer">
-        <p>&copy; 2026 FoodBank ke. All rights reserved.</p>
+        <section class="bg-blue-50 p-8 rounded-2xl border border-blue-100 text-center shadow-sm">
+            <h2 class="text-3xl font-bold text-blue-900 mb-4 text-center">A Note to Our Supporters</h2>
+            <p class="text-lg text-blue-800 italic">"Your generosity is the lifeblood of this project. Whether you give a bag of rice or a gallon of water, you are changing a life today. We truly appreciate you."</p>
+        </section>
+    </main>
+
+    <footer class="bg-blue-900 text-white py-10 mt-auto text-center">
+        <p>&copy; 2026 FoodBankKe. All rights reserved.</p>
+        <p class="italic text-blue-300 mt-2">Touching Lives, One Meal at a Time</p>
     </footer>
 </body>
 </html>

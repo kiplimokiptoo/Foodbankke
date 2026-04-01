@@ -4,46 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodBankKe - Contact</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <nav class="main-nav">
-        <ul class="nav-list">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contributions.html">Contributions</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+<body class="bg-white text-gray-800 flex flex-col min-h-screen">
+    <nav class="bg-emerald-600 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="home.html" class="text-2xl font-bold">FoodBankKe</a>
+            <div class="space-x-6">
+                <a href="home.html" class="hover:text-emerald-200 transition">Home</a>
+                <a href="services.html" class="hover:text-emerald-200 transition">Services</a>
+                <a href="contributions.html" class="hover:text-emerald-200 transition">Contributions</a>
+                <a href="contact.html" class="hover:text-emerald-200 transition">Contact Us</a>
+            </div>
+        </div>
     </nav>
 
-    <div class="container">
-        <section class="contact-box">
-            <h1>Contact Us</h1>
-            <p>Feel free to reach out to us with any questions or feedback!</p>
-            <div class="contact-details">
-                <h2>Email: foodbankke@gmail.com</h2>
-                <p>Phone: 0712897654</p>
-                <p>Instagram: foodbankke</p>
-                <p>Facebook: FoodBank Kenya</p>
+    <main class="flex-grow container mx-auto px-6 py-12 max-w-4xl">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-4xl font-bold text-emerald-700 mb-4 text-center md:text-left">Get in Touch</h1>
+                <p class="mb-8 text-gray-600 text-center md:text-left">Have questions or want to join our team? Use the form or chat with us instantly on WhatsApp.</p>
+                
+                <div class="text-center md:text-left mb-8">
+                    <a href="https://wa.me/254708319101" target="_blank" class="inline-flex items-center bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition">
+                        <svg class="w-6 h-6 mr-2 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217s.231.001.332.005c.109.004.253-.041.397.303.145.346.491 1.197.535 1.284.044.087.073.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.087-.177.18-.077.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564c.173.087.289.129.332.202.043.073.043.419-.101.824z"/></svg>
+                        Chat on WhatsApp
+                    </a>
+                </div>
+
+                <div class="text-center md:text-left space-y-2">
+                    <p><strong>Email:</strong> foodbankke@gmail.com</p>
+                    <p><strong>Phone:</strong> 0708319101</p>
+                </div>
             </div>
-
-            <form class="feedback-form" action="#" method="post">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your name here">
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Your email here">
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Your message here"></textarea>
-
-                <button type="submit">Submit</button>
+            
+            <form action="#" method="post" class="bg-gray-50 p-8 rounded-3xl border border-gray-200 shadow-lg space-y-4">
+                <input class="w-full p-3 rounded-lg border border-gray-300 outline-none focus:ring-2 focus:ring-emerald-500" type="text" placeholder="Your Name" required>
+                <input class="w-full p-3 rounded-lg border border-gray-300 outline-none focus:ring-2 focus:ring-emerald-500" type="email" placeholder="Your Email" required>
+                <textarea class="w-full p-3 rounded-lg border border-gray-300 outline-none focus:ring-2 focus:ring-emerald-500" rows="4" placeholder="Your Message"></textarea>
+                <button class="w-full bg-emerald-600 text-white font-bold py-3 rounded-lg hover:bg-emerald-700 transition" type="submit">Submit Message</button>
             </form>
-        </section>
-    </div>
+        </div>
+    </main>
 
-    <footer class="site-footer">
-        <p>&copy; 2026 FoodBankKe. All rights reserved.</p>
+    <footer class="bg-blue-900 text-white py-10 mt-auto">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2026 FoodBankKe. All rights reserved.</p>
+            <p class="italic text-blue-300 mt-2">Touching Lives, One Meal at a Time</p>
+        </div>
     </footer>
 </body>
 </html>
