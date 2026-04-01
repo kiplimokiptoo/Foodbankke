@@ -1,16 +1,16 @@
-#FoodBank Ke 
+# FoodBank Ke 
 
-##FoodBankKe is a modern, responsive web application built for a Kenyan NGO dedicated to distributing meals and clean water to vulnerable families. The project uses a professional "Water and Food" aesthetic with an Emerald and Blue color palette.
+FoodBankKe is a modern, responsive web application built for a Kenyan NGO dedicated to distributing meals and clean water to vulnerable families. The project uses a professional "Water and Food" aesthetic with an Emerald and Blue color palette.
 
-##Live Demo
+## Live Demo
 The project is officially deployed and can be viewed here:
 Open FoodBankKe on Netlify
 
-##Project Features
+## Project Features
 ### Four-Page Navigation: 
 Includes Home, Services, Contributions, and Contact Us.
 
-###Modern UI: 
+### Modern UI: 
 Built with Tailwind CSS for a mobile-first, sleek design.
 
 ### Donor Appreciation: 
