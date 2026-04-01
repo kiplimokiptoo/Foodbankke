@@ -1,15 +1,15 @@
-# FoodBankKe 🇰🇪
+#FoodBank Ke 
 FoodBankKe is a modern, responsive web application built for a Kenyan NGO dedicated to distributing meals and clean water to vulnerable families. The project uses a professional "Water and Food" aesthetic with an Emerald and Blue color palette.
 
-## 🚀 Live Demo
+##Live Demo
 The project is officially deployed and can be viewed here:
 Open FoodBankKe on Netlify
 
-## 🛠️ Project Features
+##Project Features
 ### Four-Page Navigation: 
 Includes Home, Services, Contributions, and Contact Us.
 
-### Modern UI: 
+###Modern UI: 
 Built with Tailwind CSS for a mobile-first, sleek design.
 
 ### Donor Appreciation: 
@@ -26,7 +26,7 @@ Interactive phone link for mobile users (0708319101).
 ### Click-to-Email: 
 Automated mail link for official correspondence.
 
-## 👥 Collaborators
+##Collaborators
 This project is a result of the collective effort of:
 
 Emmanuel
@@ -37,7 +37,7 @@ Kiplimo
 
 Obinda
 
-## 💻 Development Workflow
+##Development Workflow
 ### 1. Installation & Setup
 To run this project locally, clone the repository using Git:
 
@@ -62,7 +62,7 @@ Push to GitHub: git push origin main
 
 Note: Netlify is linked to this repository and will automatically deploy your changes when you push to GitHub.
 
-## 📖 Technical Stack
+##Technical Stack
 HTML5: Structure and content.
 
 Tailwind CSS: Styling and layout via CDN.
@@ -71,7 +71,7 @@ Git & GitHub: Version control and collaboration.
 
 Netlify: Continuous deployment and hosting.
 
-## 📄 License
+##License
 This project was created for community support and educational purposes.
 
 ## Future Improvements
